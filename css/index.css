@@ -1,0 +1,13 @@
+.contentRound{width:300px; height: 300px; position: relative;}
+.myround{ border-radius: 50%; margin: 0 auto; }
+.halfRound-o{ width:100%; height: 50%; overflow: hidden; }
+.halfRound-i{ width:100%; height: 200%; border-radius:50%; background:linear-gradient(bottom, #eaeaea 0%,#8f9297 100%); background:-webkit-linear-gradient(bottom, #eaeaea 0%,#8f9297 100%); }
+
+.r-middle{ position: absolute; left: 50%; top: 50%; transform:translate(-50%,-50%);}
+.outerRound{width:90%; height: 90%;background: #030cef; border: 5px solid #373a2f;}
+.middleRound{width:85%; height: 85%; background: #5b5e55; border: 10px solid #11070f;}
+.innerRound{width:95%; height: 95%;border:5px solid #000d1c; overflow: hidden;}
+.innerRound:before{ content: " "; height: 10px; width: 100%; background: #ccc;}
+
+#container123{width:100%; height: 100% !important; background: #3782ff !important;}
+circle{ fill:#ff0000;}
